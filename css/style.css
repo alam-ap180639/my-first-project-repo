@@ -1,0 +1,109 @@
+/* comman css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* comman css end */
+
+.main{
+    width: 400px;
+    background-color:darkblue;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+.main  h1{
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    font-family: sans-serif;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+input{
+    width: 100%;
+    padding: 6px 10px;
+}
+
+.email_field{
+    margin-top: 25px;
+
+}
+
+.contact_field{
+    margin-top: 25px;
+}
+
+.password_field{
+    margin-top: 25px;
+}
+
+.date_field{
+    margin-top: 25px;
+}
+
+.select_field{
+    margin-top: 25px;
+}
+
+.mass_field{
+    margin-top: 25px;
+}
+
+.select_field select{
+    width: 100%;
+    padding: 8px 0;
+}
+
+.gender{
+    margin-top: 20px;
+}
+
+.gender p{
+    display: block;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.gender label{
+ display: inline-block;
+}
+
+.gender input{
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.gender label{
+    display: inline-block;
+}
+
+button{
+    padding: 8px 20px;
+    color:darkblue;
+    font-size: 20px;
+    background-color:#fff;
+    cursor: pointer;
+    margin-top: 40px;
+    border-radius: 10px;
+    transition: .4s;
+ 
+}
+
+button:hover{
+    background-color: red;
+    color: #fff;
+}
